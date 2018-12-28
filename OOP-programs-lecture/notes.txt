@@ -1,0 +1,48 @@
+php oop basic concepts
+	abstraction:
+		is simplifying complex reality by modeling classes appropriate to the problem.
+
+	polymophism:
+		is the process of using a operator or function in different ways for differenct data input.
+
+	Encapsulation:
+		is hiding the implementation details of a class from other objects.
+
+	Inheritance:
+		is a way to form new classes using classes that have already been defined.
+
+##############################################################################################
+
+class
+	is a template for an object. it is a blueprint which describes the state and behavior.
+
+object
+	is a basic building block of PHP OOP program. An object is a combination of data and methods.
+
+Access Control Modifiers
+	public		:  accessible by all. and THIS IS DEFAULT IN PHP
+	private		:  accessible within class only
+	protected	:  accessible by subclasses.
+
+
+excercise -1
+help : https://www.mathsisfun.com/area.html
+
+===========================================================
+
+PHP_EOL : used to find the newline character in a cross-platform-compatible way, so it handles DOS/Unix issues.
+
+Note that PHP_EOL represents the endline character for the current system. For instance, it will not find a Windows endline when executed on a unix-like system
+
+it should be use as the end-line character when writing a command-line script.
+===============================================================
+inheritance
+
+- PHP supports single & multilevel inheritance. 
+- It does not support multiple inheritance.
+- In single inheritance, by using the extend keyword a class can inherit 
+  methods and members of another base class (only one). 
+- PHP uses the concept of inheritance only in the object model.
+- If a class extends another then the parent class is to be declared 
+  before  the child class.
+- The classes must be defined before they are used.
