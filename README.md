@@ -3,7 +3,7 @@
 ```sh
 $config['base_url'] = "http://somesite.com/somedir/";
 ```
-##### This can be done either in application/config/autoload.php
+
 ##### If using the URL helper, then base_url() will output the above string.
 
 ```sh
