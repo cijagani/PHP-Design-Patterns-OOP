@@ -1,8 +1,9 @@
-# Before running programm in your system set codeigniter base url properly?
+## Before running programm in your system set codeigniter base url properly?
 #### How to set proper codeigniter base url?
 ```sh
 $config['base_url'] = "http://somesite.com/somedir/";
 ```
+##### This can be done either in application/config/autoload.php
 ##### If using the URL helper, then base_url() will output the above string.
 
 ```sh
